@@ -16,14 +16,16 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:center;
     background-image: linear-gradient(to top, black, gray);    
    
 }
 
 main{
     width: 100%;
-    height: 830px;
+    height: 890px;
+ 
+
 }
 
 img{
@@ -61,6 +63,7 @@ section >a:hover{
 
 }
 
+
 section.imagem{
     width: 100%;
     height: 500px;
@@ -84,6 +87,32 @@ section#img02{
     background-repeat: no-repeat;
 
 }
+.herois{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 300px
+
+}
+
+.conteudo01{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+    margin:auto;
+    background-color: rgba(75, 74, 74, 0.315);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;   
+    font-size: larger;
+    line-height: 2em;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px black;
+
+}
 
 section.conteudo{
     display: inline-block;
@@ -102,8 +131,7 @@ section.conteudo{
 aside{
     background-image: linear-gradient(to right, white, rgba(128, 128, 128, 0.653));
     width: 60%;
-    height: 20%;
-    margin: 40px auto 20px;
+    margin: auto;
     padding: 10px;
     border: 1px 1px 1px solid rgb(236, 224, 224);
     border-radius: 10px;
@@ -126,6 +154,7 @@ aside >p{
 }
 
 ul{
+
     list-style: none;
     list-style-position: inside;
     columns: 2;
@@ -135,6 +164,10 @@ ul{
 
 li >a{
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     color: white;
 }
 
